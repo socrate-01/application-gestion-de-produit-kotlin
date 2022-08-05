@@ -1,1 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.AndroidProjectGLSIB.MainApp">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/cosmoo"
+        tools:ignore="Suspicious0dp" />
+
+
+    <Button
+        android:id="@+id/getstarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Get Started" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="About Us" />
+
+</LinearLayout>
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->

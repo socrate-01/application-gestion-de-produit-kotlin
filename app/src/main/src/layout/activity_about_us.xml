@@ -1,1 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.AndroidProjectGLSIB.MainApp">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cosmoo"
+        tools:ignore="Suspicious0dp" />
+
+
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Cosmetics est une application de gestion de produit cométiques. Vous pourrez ajouter des produits, les voir, le modifier ou encore les supprimer...Chaque produit est rattachée à une famille et dispose d'un nom et d'un prix.\n
+Pour plus d'informations contactez nous:\n
+Num:77-XXX-XX-XX\n\n
+Joignez nous sur les réseaux\n\n"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="130dp">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ig">
+    </ImageView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"></TextView>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/fp">
+    </ImageView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"></TextView>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/whtspp">
+    </ImageView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"></TextView>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/tw">
+    </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"></TextView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"></TextView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"></TextView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Back" />
+
+</LinearLayout>
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
